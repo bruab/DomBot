@@ -1,0 +1,6 @@
+[Mon Sep 15 2014 03:45:52 GMT-0400 (EDT)] INFO Connecting HipChat adapter...
+[Mon Sep 15 2014 03:45:54 GMT-0400 (EDT)] INFO Connected to hipchat.com as @DomBot
+[Mon Sep 15 2014 03:45:54 GMT-0400 (EDT)] WARNING The HUBOT_AUTH_ADMIN environment variable not set
+[Mon Sep 15 2014 03:45:54 GMT-0400 (EDT)] ERROR [Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED]
+[Mon Sep 15 2014 03:45:54 GMT-0400 (EDT)] INFO Joining 105465_geiblabs@conf.hipchat.com
+[Mon Sep 15 2014 03:45:54 GMT-0400 (EDT)] INFO Joining 105465_dombotsplayhouse@conf.hipchat.com
