@@ -2,7 +2,11 @@
 #   Assorted DomBot commands
 #
 # Commands:
-#   hubot workout - Replay with advice on lifting
+#   hubot workout - Reply with advice on lifting
+#   hubot australia - Relate a personal anecdote
+#   hubot balance - [No explanation available]
+#   hubot stupid - Put you in your place
+#   hubot picture you - Show you a picture of your hero
 
 module.exports = (robot) ->
   robot.respond /.*workout.*/i, (msg) ->
@@ -19,3 +23,6 @@ module.exports = (robot) ->
 
   robot.respond /.*picture.*you.*/i, (msg) ->
     msg.send "http://imgur.com/77pFOtS"
+
+  robot.respond /.*cheat.*/i, (msg) ->
+    msg.send "does\nthis\nhelp\nat\nall?\n"

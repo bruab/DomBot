@@ -1,6 +1,9 @@
 #!/bin/bash
 
-export HUBOT_HIPCHAT_JID="105465_833575@chat.hipchat.com"
-export HUBOT_HIPCHAT_PASSWORD="abc123"
+# password stuff is in this file; it's not under version control.
+. top_secret_dombot_file
+
+export HUBOT_HIPCHAT_JID=$jid
+export HUBOT_HIPCHAT_PASSWORD=$pass
 
 nohup bin/hubot --adapter hipchat &
