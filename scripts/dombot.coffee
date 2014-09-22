@@ -26,3 +26,6 @@ module.exports = (robot) ->
 
   robot.respond /.*cheat.*/i, (msg) ->
     msg.send "does\nthis\nhelp\nat\nall?\n"
+
+  robot.respond /.*pirate.*/i, (msg) ->
+    msg.send "Yarr! Shiver me timbers! Scalawag! Doubloons!\n"
