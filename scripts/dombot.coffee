@@ -29,3 +29,6 @@ module.exports = (robot) ->
 
   robot.respond /.*pirate.*/i, (msg) ->
     msg.send "Yarr! Shiver me timbers! Scalawag! Doubloons!\n"
+
+  robot.respond /.*best.*in.*life.*/i, (msg) ->
+    msg.send "To crush your enemies, see them driven before you, and to hear the lamentation of their women.\n"
