@@ -2,3 +2,4 @@ node_modules
 .DS_Store*
 nohup.out
 top_secret_dombot_file
+*.rdb
